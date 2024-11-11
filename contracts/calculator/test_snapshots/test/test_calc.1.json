@@ -1,0 +1,1466 @@
+{
+  "generators": {
+    "address": 1,
+    "nonce": 0
+  },
+  "auth": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "ledger": {
+    "protocol_version": 21,
+    "sequence_number": 0,
+    "timestamp": 0,
+    "network_id": "0000000000000000000000000000000000000000000000000000000000000000",
+    "base_reserve": 0,
+    "min_persistent_entry_ttl": 4096,
+    "min_temp_entry_ttl": 16,
+    "max_entry_ttl": 6312000,
+    "ledger_entries": [
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2KM",
+            "key": "ledger_key_contract_instance",
+            "durability": "persistent"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2KM",
+                "key": "ledger_key_contract_instance",
+                "durability": "persistent",
+                "val": {
+                  "contract_instance": {
+                    "executable": {
+                      "wasm": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                    },
+                    "storage": [
+                      {
+                        "key": {
+                          "symbol": "COUNTER"
+                        },
+                        "val": {
+                          "u32": 10
+                        }
+                      },
+                      {
+                        "key": {
+                          "symbol": "HISTORY"
+                        },
+                        "val": {
+                          "vec": [
+                            {
+                              "map": [
+                                {
+                                  "key": {
+                                    "symbol": "id"
+                                  },
+                                  "val": {
+                                    "u32": 10
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "op"
+                                  },
+                                  "val": {
+                                    "vec": [
+                                      {
+                                        "symbol": "Div"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "x"
+                                  },
+                                  "val": {
+                                    "u32": 8
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "y"
+                                  },
+                                  "val": {
+                                    "u32": 0
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "z"
+                                  },
+                                  "val": {
+                                    "u32": 4294967295
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "map": [
+                                {
+                                  "key": {
+                                    "symbol": "id"
+                                  },
+                                  "val": {
+                                    "u32": 9
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "op"
+                                  },
+                                  "val": {
+                                    "vec": [
+                                      {
+                                        "symbol": "Div"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "x"
+                                  },
+                                  "val": {
+                                    "u32": 0
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "y"
+                                  },
+                                  "val": {
+                                    "u32": 9
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "z"
+                                  },
+                                  "val": {
+                                    "u32": 0
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "map": [
+                                {
+                                  "key": {
+                                    "symbol": "id"
+                                  },
+                                  "val": {
+                                    "u32": 8
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "op"
+                                  },
+                                  "val": {
+                                    "vec": [
+                                      {
+                                        "symbol": "Mul"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "x"
+                                  },
+                                  "val": {
+                                    "u32": 2
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "y"
+                                  },
+                                  "val": {
+                                    "u32": 3
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "z"
+                                  },
+                                  "val": {
+                                    "u32": 6
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "map": [
+                                {
+                                  "key": {
+                                    "symbol": "id"
+                                  },
+                                  "val": {
+                                    "u32": 7
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "op"
+                                  },
+                                  "val": {
+                                    "vec": [
+                                      {
+                                        "symbol": "Sub"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "x"
+                                  },
+                                  "val": {
+                                    "u32": 8
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "y"
+                                  },
+                                  "val": {
+                                    "u32": 10
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "z"
+                                  },
+                                  "val": {
+                                    "u32": 2
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "map": [
+                                {
+                                  "key": {
+                                    "symbol": "id"
+                                  },
+                                  "val": {
+                                    "u32": 6
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "op"
+                                  },
+                                  "val": {
+                                    "vec": [
+                                      {
+                                        "symbol": "Sum"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "x"
+                                  },
+                                  "val": {
+                                    "u32": 4294967295
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "y"
+                                  },
+                                  "val": {
+                                    "u32": 1
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "z"
+                                  },
+                                  "val": {
+                                    "u32": 4294967295
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "map": [
+                                {
+                                  "key": {
+                                    "symbol": "id"
+                                  },
+                                  "val": {
+                                    "u32": 5
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "op"
+                                  },
+                                  "val": {
+                                    "vec": [
+                                      {
+                                        "symbol": "Div"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "x"
+                                  },
+                                  "val": {
+                                    "u32": 6
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "y"
+                                  },
+                                  "val": {
+                                    "u32": 0
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "z"
+                                  },
+                                  "val": {
+                                    "u32": 4294967295
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "map": [
+                                {
+                                  "key": {
+                                    "symbol": "id"
+                                  },
+                                  "val": {
+                                    "u32": 4
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "op"
+                                  },
+                                  "val": {
+                                    "vec": [
+                                      {
+                                        "symbol": "Div"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "x"
+                                  },
+                                  "val": {
+                                    "u32": 6
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "y"
+                                  },
+                                  "val": {
+                                    "u32": 2
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "z"
+                                  },
+                                  "val": {
+                                    "u32": 3
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "map": [
+                                {
+                                  "key": {
+                                    "symbol": "id"
+                                  },
+                                  "val": {
+                                    "u32": 3
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "op"
+                                  },
+                                  "val": {
+                                    "vec": [
+                                      {
+                                        "symbol": "Mul"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "x"
+                                  },
+                                  "val": {
+                                    "u32": 2
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "y"
+                                  },
+                                  "val": {
+                                    "u32": 3
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "z"
+                                  },
+                                  "val": {
+                                    "u32": 6
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "map": [
+                                {
+                                  "key": {
+                                    "symbol": "id"
+                                  },
+                                  "val": {
+                                    "u32": 2
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "op"
+                                  },
+                                  "val": {
+                                    "vec": [
+                                      {
+                                        "symbol": "Sub"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "x"
+                                  },
+                                  "val": {
+                                    "u32": 3
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "y"
+                                  },
+                                  "val": {
+                                    "u32": 2
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "z"
+                                  },
+                                  "val": {
+                                    "u32": 1
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "map": [
+                                {
+                                  "key": {
+                                    "symbol": "id"
+                                  },
+                                  "val": {
+                                    "u32": 1
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "op"
+                                  },
+                                  "val": {
+                                    "vec": [
+                                      {
+                                        "symbol": "Sum"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "x"
+                                  },
+                                  "val": {
+                                    "u32": 1
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "y"
+                                  },
+                                  "val": {
+                                    "u32": 2
+                                  }
+                                },
+                                {
+                                  "key": {
+                                    "symbol": "z"
+                                  },
+                                  "val": {
+                                    "u32": 3
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "key": {
+                          "symbol": "LAST_OP"
+                        },
+                        "val": {
+                          "map": [
+                            {
+                              "key": {
+                                "symbol": "id"
+                              },
+                              "val": {
+                                "u32": 10
+                              }
+                            },
+                            {
+                              "key": {
+                                "symbol": "op"
+                              },
+                              "val": {
+                                "vec": [
+                                  {
+                                    "symbol": "Div"
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "key": {
+                                "symbol": "x"
+                              },
+                              "val": {
+                                "u32": 8
+                              }
+                            },
+                            {
+                              "key": {
+                                "symbol": "y"
+                              },
+                              "val": {
+                                "u32": 0
+                              }
+                            },
+                            {
+                              "key": {
+                                "symbol": "z"
+                              },
+                              "val": {
+                                "u32": 4294967295
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "ext": "v0"
+          },
+          4095
+        ]
+      ],
+      [
+        {
+          "contract_code": {
+            "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_code": {
+                "ext": "v0",
+                "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "code": ""
+              }
+            },
+            "ext": "v0"
+          },
+          4095
+        ]
+      ]
+    ]
+  },
+  "events": [
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "0000000000000000000000000000000000000000000000000000000000000001"
+              },
+              {
+                "symbol": "sum"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "u32": 1
+                },
+                {
+                  "u32": 2
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "log"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "string": "sum: {}"
+                },
+                {
+                  "u32": 3
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "sum"
+              }
+            ],
+            "data": {
+              "u32": 3
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "0000000000000000000000000000000000000000000000000000000000000001"
+              },
+              {
+                "symbol": "sub"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "u32": 3
+                },
+                {
+                  "u32": 2
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "log"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "string": "sub: {}"
+                },
+                {
+                  "u32": 1
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "sub"
+              }
+            ],
+            "data": {
+              "u32": 1
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "0000000000000000000000000000000000000000000000000000000000000001"
+              },
+              {
+                "symbol": "mul"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "u32": 2
+                },
+                {
+                  "u32": 3
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "log"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "string": "mul: {}"
+                },
+                {
+                  "u32": 6
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "mul"
+              }
+            ],
+            "data": {
+              "u32": 6
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "0000000000000000000000000000000000000000000000000000000000000001"
+              },
+              {
+                "symbol": "div"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "u32": 6
+                },
+                {
+                  "u32": 2
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "log"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "string": "div: {}"
+                },
+                {
+                  "u32": 3
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "div"
+              }
+            ],
+            "data": {
+              "u32": 3
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "0000000000000000000000000000000000000000000000000000000000000001"
+              },
+              {
+                "symbol": "div"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "u32": 6
+                },
+                {
+                  "u32": 0
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "log"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "string": "div: {}"
+                },
+                {
+                  "u32": 4294967295
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "div"
+              }
+            ],
+            "data": {
+              "u32": 4294967295
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "0000000000000000000000000000000000000000000000000000000000000001"
+              },
+              {
+                "symbol": "sum"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "u32": 4294967295
+                },
+                {
+                  "u32": 1
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "log"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "string": "sum: {}"
+                },
+                {
+                  "u32": 4294967295
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "sum"
+              }
+            ],
+            "data": {
+              "u32": 4294967295
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "0000000000000000000000000000000000000000000000000000000000000001"
+              },
+              {
+                "symbol": "sub"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "u32": 8
+                },
+                {
+                  "u32": 10
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "log"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "string": "sub: {}"
+                },
+                {
+                  "u32": 2
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "sub"
+              }
+            ],
+            "data": {
+              "u32": 2
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "0000000000000000000000000000000000000000000000000000000000000001"
+              },
+              {
+                "symbol": "mul"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "u32": 2
+                },
+                {
+                  "u32": 3
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "log"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "string": "mul: {}"
+                },
+                {
+                  "u32": 6
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "mul"
+              }
+            ],
+            "data": {
+              "u32": 6
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "0000000000000000000000000000000000000000000000000000000000000001"
+              },
+              {
+                "symbol": "div"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "u32": 0
+                },
+                {
+                  "u32": 9
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "log"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "string": "div: {}"
+                },
+                {
+                  "u32": 0
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "div"
+              }
+            ],
+            "data": {
+              "u32": 0
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": null,
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_call"
+              },
+              {
+                "bytes": "0000000000000000000000000000000000000000000000000000000000000001"
+              },
+              {
+                "symbol": "div"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "u32": 8
+                },
+                {
+                  "u32": 0
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "log"
+              }
+            ],
+            "data": {
+              "vec": [
+                {
+                  "string": "div: {}"
+                },
+                {
+                  "u32": 4294967295
+                }
+              ]
+            }
+          }
+        }
+      },
+      "failed_call": false
+    },
+    {
+      "event": {
+        "ext": "v0",
+        "contract_id": "0000000000000000000000000000000000000000000000000000000000000001",
+        "type_": "diagnostic",
+        "body": {
+          "v0": {
+            "topics": [
+              {
+                "symbol": "fn_return"
+              },
+              {
+                "symbol": "div"
+              }
+            ],
+            "data": {
+              "u32": 4294967295
+            }
+          }
+        }
+      },
+      "failed_call": false
+    }
+  ]
+}
